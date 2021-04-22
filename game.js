@@ -53,7 +53,7 @@ function checkAnswer(currentLevel) {
 
 };
 
-//generates random number, matches it with color, animations chosen button, calls play sound function
+//generates random number, matches it with color, animates chosen button, calls play sound function
 function nextSequence() {
     userClickedPattern = [];
     level++;

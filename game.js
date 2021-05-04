@@ -69,7 +69,7 @@ function nextSequence() {
 
 };
 
-//identifies color id on button click, adds id it into array, calls: play sound and animation
+//identifies color id on button click, adds id into array, calls: play sound and animation
 $(".btn").click(function () {
     var userChosenColour = $(this).attr("id");
     userClickedPattern.push(userChosenColour);
